@@ -30,6 +30,6 @@ mongoose
     console.log("connected to DB successfully");
     
     // Listening to requests if DB connection is successful
-    app.listen(4000, "localhost", () => console.log("Listening to port 4000"));
+    app.listen(4000, () => console.log("Listening to port 4000"));
   })
   .catch((err) => console.log(err));
